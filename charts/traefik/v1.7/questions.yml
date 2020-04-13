@@ -125,3 +125,8 @@ questions:
     default: ""
     description: "Basic-Aut Protection for Dashboard"
     label: Basic Auth
+  - variable: dashboard.whitelist
+    type: string
+    default: "0.0.0.0/0"
+    description: "Whitelist for dash access"
+    label: Whitelist

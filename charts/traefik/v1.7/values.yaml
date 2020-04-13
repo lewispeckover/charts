@@ -474,3 +474,4 @@ tracing:
 #   trustForwardHeader: true
 
 hostNetwork: true
+dashboard.whitelist: 0.0.0.0/0
