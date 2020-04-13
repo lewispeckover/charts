@@ -333,6 +333,7 @@ acme:
 dashboard:
   enabled: false
   domain: traefik.example.com
+  whitelist: 0.0.0.0/0
   # serviceType: ClusterIP
   service: {}
     # annotations:
@@ -474,4 +475,3 @@ tracing:
 #   trustForwardHeader: true
 
 hostNetwork: true
-dashboard.whitelist: 0.0.0.0/0

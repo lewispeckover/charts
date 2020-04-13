@@ -15,7 +15,7 @@ metadata:
   {{- end }}
   annotations:
     traefik.ingress.kubernetes.io/whitelist-source-range: {{ .Values.dashboard.whitelist }}
-    ingress.kubernetes.io/whitelist-x-forwarded-for: "true"
+    ingress.kubernetes.io/whitelist-x-forwarded-for: "false"
   {{- if .Values.dashboard.ingress }}
   {{- range $key, $value := .Values.dashboard.ingress.annotations }}
     {{ $key }}: {{ $value | quote }}
