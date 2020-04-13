@@ -12,7 +12,7 @@ keywords:
 maintainers:
 - email: manuel@containo.us
   name: SantoDE
-name: traefik
+name: traefik-host
 sources:
 - https://github.com/containous/traefik
 - https://github.com/helm/charts/tree/master/stable/traefik

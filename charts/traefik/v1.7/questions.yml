@@ -28,6 +28,12 @@ questions:
   description: "Service Type for Traefik"
   label: Service Type
   group: "General Settings"
+- variable: hostNetwork
+  type: boolean
+  default: false
+  description: "Use hostNetwork"
+  label: hostNetwork
+  group: "General Settings"
 - variable: debug.enabled
   type: boolean
   default: false
