@@ -1,11 +1,43 @@
 apiVersion: v1
 entries:
+  postgresql:
+  - annotations:
+      category: Database
+    apiVersion: v2
+    appVersion: 11.10.0
+    created: "2020-12-05T12:01:42.201364+01:00"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      version: 1.x.x
+    description: Chart for PostgreSQL, an object-relational database management system (ORDBMS) with an emphasis on extensibility and on standards-compliance.
+    digest: c69ebe82abeffd1e5e10f758ee29d9e6024d99fe40aa7aa2018654ca894c6e18
+    home: https://github.com/bitnami/charts/tree/master/bitnami/postgresql
+    icon: https://bitnami.com/assets/stacks/postgresql/img/postgresql-stack-110x117.png
+    keywords:
+    - postgresql
+    - postgres
+    - database
+    - sql
+    - replication
+    - cluster
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    - email: cedric@desaintmartin.fr
+      name: desaintmartin
+    name: postgresql
+    sources:
+    - https://github.com/bitnami/bitnami-docker-postgresql
+    - https://www.postgresql.org/
+    urls:
+    - https://github.com/lewispeckover/charts/releases/download/postgresql-10.1.2/postgresql-10.1.2.tgz
+    version: 10.1.2
   traefik-host:
   - apiVersion: v1
     appVersion: 1.7.14
     created: "2020-04-13T14:39:47.956052+01:00"
-    description: A Traefik based Kubernetes ingress controller with Let's Encrypt
-      support
+    description: A Traefik based Kubernetes ingress controller with Let's Encrypt support
     digest: 87e01704ccfa2d1111b572a04663fc72b9a86faeba18aeee65ef04d4a2f47be9
     home: https://traefik.io/
     icon: file://../traefik.logo.png
@@ -27,8 +59,7 @@ entries:
   - apiVersion: v1
     appVersion: 1.7.14
     created: "2020-04-13T14:30:32.304402+01:00"
-    description: A Traefik based Kubernetes ingress controller with Let's Encrypt
-      support
+    description: A Traefik based Kubernetes ingress controller with Let's Encrypt support
     digest: 7e954c22c592eaaa676a88dd0b5495b9f4e37dfad93c3f0f7ad80b39fff74179
     home: https://traefik.io/
     icon: file://../traefik.logo.png
@@ -50,8 +81,7 @@ entries:
   - apiVersion: v1
     appVersion: 1.7.14
     created: "2020-04-13T10:21:37.340832+01:00"
-    description: A Traefik based Kubernetes ingress controller with Let's Encrypt
-      support
+    description: A Traefik based Kubernetes ingress controller with Let's Encrypt support
     digest: 9e6b36d2344ec252d3cd28799b8c1640e10fb4512dbd8be59fe74584b55522c3
     home: https://traefik.io/
     icon: file://../traefik.logo.png
