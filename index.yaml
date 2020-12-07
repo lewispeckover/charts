@@ -35,6 +35,28 @@ entries:
     version: 10.1.2
   traefik-host:
   - apiVersion: v1
+    appVersion: 1.7.26
+    created: "2020-12-07T13:00:25.247339+01:00"
+    description: A Traefik based Kubernetes ingress controller with Let's Encrypt support
+    digest: d9e1e5082d8fb85254de323ff0b461e1a9f74a0268de8b1a10ac921e14eb7ac0
+    home: https://traefik.io/
+    icon: file://../traefik.logo.png
+    keywords:
+    - traefik
+    - ingress
+    - acme
+    - letsencrypt
+    maintainers:
+    - email: manuel@containo.us
+      name: SantoDE
+    name: traefik-host
+    sources:
+    - https://github.com/containous/traefik
+    - https://github.com/helm/charts/tree/master/stable/traefik
+    urls:
+    - https://github.com/lewispeckover/charts/releases/download/traefik-host-1.1.2/traefik-host-1.1.2.tgz
+    version: 1.1.2
+  - apiVersion: v1
     appVersion: 1.7.14
     created: "2020-04-13T14:39:47.956052+01:00"
     description: A Traefik based Kubernetes ingress controller with Let's Encrypt support
